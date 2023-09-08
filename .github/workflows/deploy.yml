@@ -27,5 +27,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "able-dove-16"
-          entrypoint: "PUPPETEER_PRODUCT=chrome deno run -A --unstable https://deno.land/x/puppeteer@16.2.0/install.ts"
+          entrypoint: "https://deno.land/x/puppeteer@16.2.0/install.ts"
           root: "."
